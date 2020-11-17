@@ -20,7 +20,7 @@ git clone git@github.com:iasoloviev61/sf__module5_pr1.git
 
 ## Description
 
-Утилита делае зеркало всех языковых версий статьи  «Как эффективно сообщать об ошибках».
+Утилита делает зеркало всех языковых версий статьи  [Как эффективно сообщать об ошибках](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html)
 
 Используется docker и docker-compose, эти утилиты должны быть установлены на сервере перед запуском.
 
