@@ -5,7 +5,7 @@
 * [Description](#description)
 
 ## General info
-This project is a homework for skillactory - module 5 project 1
+Домашнее задание - модуль 5 проект 1.
 
 ## Technologies
 Project is created with:
@@ -18,14 +18,12 @@ Project is created with:
 git clone git@github.com:iasoloviev61/sf__module5_pr1.git
 ```
 
-
-Open in browser `http://you-domain:8800`
-
-
 ## Description
 
-Утилита делае зеркало всех языковых версий статьи  «Как эффективно сообщать об ошибках».\\
-Используется docker и docker-compose, эти утилиты должны быть установлены на сервере перед запуском.\\
+Утилита делае зеркало всех языковых версий статьи  «Как эффективно сообщать об ошибках».
+
+Используется docker и docker-compose, эти утилиты должны быть установлены на сервере перед запуском.
+
 Для просмотра используется адрес и порт: http://you-domain:8800, где you-domain - доменное имя вашего сервера.
 
 make init_project - старт проекта, копирует все версии статьи, запускает веб сервер.
@@ -36,8 +34,9 @@ stop_server - останавливает веб сервер
 
 getpages - синхронизирует зеркало(заново скачивает все страницы)
 
-getpage_lang -L=ru - скачивает статью на выбраном языке\\
+getpage_lang -L=ru - скачивает статью на выбраном языке
+
 Доступны следующие языки:\\
 ```
-br' 'cn' 'cz' 'da' 'de' 'es' 'fr' 'hu' 'it' 'jp' 'nl' 'pl' 'ru' 'tw'
+'br' 'cn' 'cz' 'da' 'de' 'es' 'fr' 'hu' 'it' 'jp' 'nl' 'pl' 'ru' 'tw'
 ```
