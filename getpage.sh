@@ -1,4 +1,11 @@
 #!/bin/bash
+if [ -d "src" ] 
+then
+    echo "Directory src exists." 
+else
+    echo "Error: Directory src does not exists."
+    mkdir src
+fi
 rm -rf src/*
 LANG=( 'br' 'cn' 'cz' 'da' 'de' 'es' 'fr' 'hu' 'it' 'jp' 'nl' 'pl' 'ru' 'tw' )
 LINK="https://www.chiark.greenend.org.uk/~sgtatham/bugs-"
